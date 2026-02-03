@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal portfolio of Abdulrahman Khamis - Front-End Developer">
+    <meta name="keywords" content="frontend, developer, portfolio, HTML, CSS, JavaScript">
+    <title>Abdulrahman Khamis | Portfolio</title>
+
+    <link rel="icon" type="image/png" sizes="32x32"
+        href="./images/business-avatar-profile-black-icon-man-of-user-symbol-in-trendy-flat-style-isolated-on-male-profile-people-diverse-face-for-social-network-or-web-vector.jpg">
+    <link rel="icon" type="image/png" sizes="16x16"
+        href="./images/business-avatar-profile-black-icon-man-of-user-symbol-in-trendy-flat-style-isolated-on-male-profile-people-diverse-face-for-social-network-or-web-vector.jpg">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">Abdulrahman Khamis</div>
+
+        <!-- Navbar Links -->
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <!-- Hamburger for mobile -->
+        <div class="hamburger" onclick="toggleSidebar()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Sidebar Menu -->
+    <div id="sidebar" class="sidebar">
+        <ul>
+            <li><a href="#home" onclick="toggleSidebar()">Home</a></li>
+            <li><a href="#about" onclick="toggleSidebar()">About</a></li>
+            <li><a href="#skills" onclick="toggleSidebar()">Skills</a></li>
+            <li><a href="#projects" onclick="toggleSidebar()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleSidebar()">Contact</a></li>
+        </ul>
+    </div>
+
+
+    <!-- Home -->
+    <section id="home" class="home-section">
+        <div class="home-content">
+            <div class="home-text">
+                <h1>Abdulrahman Khamis</h1>
+                <p>Welcome to my personal portfolio website <br> Front-End Developer</p>
+                <div class="home-buttons">
+                    <button onclick="scrollToSection('projects')">View Projects</button>
+                    <a href="CV.pdf" target="_blank"><button>Download CV</button></a>
+                </div>
+            </div>
+            <div class="home-image">
+                <img src="./images/WhatsApp Image 2026-02-03 at 4.02.34 PM.jpeg" alt="Abdulrahman">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- About -->
+    <section id="about" class="about-section">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <p>
+                My name is Abdulrahman Khamis Abdo, and I am currently a student at Borg El Arab Technological
+                University, majoring in Information Technology. I have a strong passion for programming,
+                problem-solving, and creating innovative solutions that make life easier and more efficient.
+
+                Throughout my academic journey, I have gained hands-on experience in web development, desktop
+                applications, and Internet of Things (IoT) projects, where I applied my skills to design, develop, and
+                deploy practical and user-friendly solutions.
+
+                I am proficient in technologies such as HTML, CSS, JavaScript, PHP, Java, and IoT platforms, and I
+                continuously strive to learn new tools and frameworks to stay updated with the latest trends in
+                technology.
+
+                I enjoy working in teams, collaborating on challenging projects, and I am always eager to take on new
+                challenges that allow me to grow both technically and professionally.
+
+                My goal is to build smart and innovative solutions, contribute to impactful projects, and eventually
+                pursue a career as a full-stack Developer.
+            </p>
+            <img src="./images/Top 5 Key Factors to Consider for a Successful Website Design.jpg" alt="About Me">
+        </div>
+    </section>
+
+
+
+    <!-- Skills -->
+    <section id="skills" class="skills-section">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">Frontend (HTML, CSS, JS, pootstrap)</div>
+            <div class="skill-card">Backend (PHP)</div>
+            <div class="skill-card">Database (MySQL)</div>
+            <div class="skill-card">Embedded (Arduino, Raspberry Pi)</div>
+            <div class="skill-card">Tools (Git, VS Code, Linux)</div>
+            <div class="skill-card">Other Programming Languages (Python, C++, C, Java)</div>
+        </div>
+    </section>
+
+
+    <!-- Projects -->
+    <section id="projects" class="projects-section">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <img src="./images/WhatsApp Image 2026-02-03 at 4.44.53 PM.jpeg" alt="Smart Printing System">
+                <div class="project-info">
+                    <h3>Smart Printing System</h3>
+                    <p>A smart printing system where points are charged for printing student assignments such as
+                        homework or any other academic task. This project has many benefits as it saves effort for
+                        students and simplifies the printing process.</p>
+
+                    <button>Educational project</button>
+
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card">
+                <img src="./images/Screenshot 2026-02-03 171436.png" alt="Portfolio Website">
+                <div class="project-info">
+                    <h3>Voyx Website</h3>
+                    <p>This project is a fully integrated e-commerce platform (Full Stack)The technologies used in:
+                        <br> Front-End:(HTML, CSS, JavaScript, Bootstrap) <br>
+                        Back-End:(PHP, MySQL)
+                    </p>
+                    <div class="project-buttons">
+                        <a href="https://github.com/zezo2323/full-stack-project.git" target="_blank">
+                            <button>GitHub</button>
+                        </a>
+
+                        <button>Educational project</button>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card">
+                <img src="./images/Screenshot 2026-02-03 173735.png" alt="Project 3">
+                <div class="project-info">
+                    <h3>Online Store Website</h3>
+                    <p>This project is a website for selling clothes for Men, Woman, Kids (pants, shirts, dresses) <br>
+                        without a back-End <br>
+                        front-End:(HTML, CSS, JavaScript, Bootstrap).
+                    </p>
+                    <div class="project-buttons">
+                        <a href="https://github.com/zezo2323/online_store.git" target="_blank">
+                            <button>GitHub</button>
+                        </a>
+
+                        <button>Educational project</button>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Project 4 -->
+            <div class="project-card">
+                <img src="./images/WhatsApp Image 2026-02-03 at 6.33.16 PM.jpeg" alt="Project 3">
+                <div class="project-info">
+                    <h3>University Student Management System</h3>
+                    <p>This project is a desktop application designed in JavaFX. It's a university student management
+                        system with two login options: the first is the admin login, which has full control over
+                        students, allowing them to add grades, lectures, generate reports, etc. <br>
+                        Secondly, the students have a recording where the lectures are displayed, as well as their
+                        results.
+                    </p>
+                    <div class="project-buttons">
+                        <a href="https://github.com/boda1020/CodeX_Project.git" target="_blank">
+                            <button>GitHub</button>
+                        </a>
+
+                        <button>Educational project</button>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 5 -->
+            <div class="project-card">
+                <img src="./images/Gemini_Generated_Image_czeac8czeac8czea.png" alt="Smart Printing System">
+                <div class="project-info">
+                    <h3>Advanced Arduino Trainer</h3>
+                    <p>This project is a complete mobile laboratory containing 33 modules for practical experiments such
+                        as high-precision temperature measurement, sound intensity measurement, light intensity
+                        measurement, and many other experiments...etc. <br> The controller for all of this is also the
+                        Arduino Mega and the Mini PC for running the environment, similar to the Arduino IDE.</p>
+
+                    <button>Educational project</button>
+
+                </div>
+            </div>
+
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Me</h2>
+        <p>Feel free to contact me anytime.</p>
+
+        <div class="contact-cards">
+
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=bdalrhmankhames@gmail.com" target="_blank"
+                class="contact-card">
+                <i class="fa-solid fa-message"></i>
+                Email
+                <span>bdalrhmankhames@gmail.com</span>
+            </a>
+
+            <a href="https://wa.me/qr/DZ5KRZXZZM5RM1" target="_blank" class="contact-card">
+                <i class="fa-brands fa-whatsapp"></i>
+                WhatsApp
+                <span>+20 120 133 2850</span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/abdulrahman-khamis-65b39b38a" target="_blank" class="contact-card">
+                <i class="fa-brands fa-linkedin"></i>
+                LinkedIn
+                <span>View Profile</span>
+            </a>
+
+            <a href="https://github.com/boda1020" target="_blank" class="contact-card">
+                <i class="fa-brands fa-github"></i>
+                GitHub
+                <span>My Projects</span>
+            </a>
+
+            <!-- Facebook -->
+            <a href="https://www.facebook.com/abadalrhman.khamis" target="_blank" class="contact-card">
+                <i class="fa-brands fa-facebook"></i>
+                Facebook
+                <span>My Profile</span>
+            </a>
+
+            <!-- Instagram -->
+            <a href="https://www.instagram.com/abadalrhman.khamis" target="_blank" class="contact-card">
+                <i class="fa-brands fa-instagram"></i>
+                Instagram
+                <span>My Profile</span>
+            </a>
+
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Abdulrahman Khamis Abdo. All rights reserved.</p>
+    </footer>
+
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
